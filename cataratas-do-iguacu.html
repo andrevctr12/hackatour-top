@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default bg-accent">
+      <div class="container-fluid marhor-15">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Welcome2</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Passeios<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Hotéis</a></li>
+          </ul>
+          </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <!-- /#page-content-wrapper -->
+        
+        <div class="container-fluid">
+          <div class="row">
+              <img src="cataratas.jpg" class="img-responsive" alt="">
+              <div class="force-right-align font-2-3em color-fff">
+                <div class="col-md-6">
+                  <a class="btn font-700 font-0-5em botao-banner" href="#acessibilidade">
+                  <i class="fa fa-universal-access" aria-hidden="true"></i>
+                  </a>
+                  <button class="btn font-700 font-0-5em botao-banner" data-toggle="modal" data-target="#modalSurdo">
+                  <i class="fa fa-deaf"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          <div class="container">
+            <div class="row marver-25">
+              <div class="col-md-12">
+                <h4 class="text-uppercase font-1-8em">Cataratas do Iguaçu</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                <p></p>
+              </div>
+              <div class="col-md-2 padver-25 padhor-10" style="border: 1px solid #eee; border-radius: 5px">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-center color-green font-700 text-uppercase font-1em">Acessibilidade</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <button class="btn font-700 font-1-3em bg-azul"><i class="fa fa-wheelchair"></i></button>
+                </div>
+                <div class="col-md-6">
+                  <button class="btn font-700 font-1-3em bg-azul"  data-toggle="modal" data-target="#modalSurdo"><i class="fa fa-deaf"></i></button>
+                </div>
+              </div>
+            </div>
+              <div class="row marver-20">
+                <div class="col-md-4">
+                  <a href="macuco-safari.html">
+                    <div class="card-home">
+                      <p class="text-center margin-10 font-700 font-1-1em color-666" style="text-decoration: none">Macuco Safari</p>
+                      <img src="img/macuco-safari-500x300.jpg" class="img-responsive" alt="">
+                      <div class="padding-15 text-center">
+                        <a class="text-uppercase font-700 color-green">Saiba mais <i class="fa fa-chevron-right mleft-10"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <!--             <div class="row">
+              <div class="col-md-12 marver-20">
+                <div style="background: #eee">
+                  <blockquote>
+                    <p>O que dizer dessas cataratas que mal conheço e já considero pakas.</p>
+                  <footer>Someone famous in <cite title="Source Title">Hackatour</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalSurdo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FV1PtXaiSwQ" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#wrapper -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      
+    </body>
+    <footer class="footer mtop-25 bg-accent padding-15">
+      <div class="container">
+        <p class="color-fff margin-0">Desenvolvido com amor no Hackatour <3.</p>
+      </div>
+    </footer>
+  </html>
